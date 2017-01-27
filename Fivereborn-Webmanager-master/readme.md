@@ -1,24 +1,23 @@
-Fivereborn Webmanager
+FiveReborn WebManager
 ==============
 
-How to use:
+Installation of 5R WebManager:
 --------------
 
-Edit the index.php like you need it. Change sitename and add servers. Upload it to your webserver and have fun.
+Download the file and configure the index.php to your information. Then upload to your webserver and enjoy.
+
+If you want to customize the ban and kick message. Change the "message" in index.php on line 15 and 16.
+
+// Messages for kick & ban
+$kickmessage = "Custom Kick";
+$banmessage = "Custom Ban";
 
 
 IMPORTANT:
 --------------
-
-You can integrate it in you own website or build around that script but its completly insecure by default. Everybody could just google your site and ban players. You MUST add some sort of security feature to it, like a login system.
-Again, please dont use it like it is now!!!!
+Make sure you either put a password or make a login system. This is because anyone will be able to access the index.php and use the admin tools or gain your rcon information.
 
 
 Image:
 --------------
 ![alt text](http://puu.sh/syhUW/723d990e43.png "Working Interface")
-
-
-Sidenote:
---------------
-I made a whole webinterface completly for SidewaysInc servers and this is just a "ripoff". If you cant develop yourself but want more functions (user-, mod-, or some other management-functions) you can ask me to develop them. But that wont be for free because i have to invest my private time for it. Well, this is for free and i hope you have fun with it :)
